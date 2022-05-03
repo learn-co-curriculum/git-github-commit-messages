@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-- Learn best practices for making commits
-- Learn best practices for writing good commit messages
+- Learn best practices for committing your work.
+- Learn best practices for writing commit messages.
 
 ## Introduction
 
@@ -171,6 +171,12 @@ You can then add as much information as you like on subsequent lines to fully
 document the commit.
 
 See [these guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for more information about creating a good multiline commit message.
+
+## Check for Understanding
+
+Before moving on to the next lesson, check for your understanding of this
+material by describing in your own words the two main reasons it's important to
+follow best practices for committing your work.
 
 ## Conclusion
 
