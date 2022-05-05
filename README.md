@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-- Learn best practices for committing your work.
-- Learn best practices for writing commit messages.
+- Follow best practices for committing your work.
+- Follow best practices for writing commit messages.
 
 ## Introduction
 
