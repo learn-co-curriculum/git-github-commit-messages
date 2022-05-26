@@ -77,7 +77,7 @@ habit of following. The first two are basically the same as the guidelines for
 the commits themselves:
 
 First, commit messages should be specific. Avoid commit messages like "Updated
-<filename>". For one thing, the commit message is already attached to the file
+filename.txt". For one thing, the commit message is already attached to the file
 that was updated so you don't need to include its name in the message. But, more
 importantly, the commit message says nothing about what was actually changed.
 
