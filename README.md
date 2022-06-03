@@ -109,6 +109,12 @@ easy to do!). Therefore, even though you may not need to use multiline commit
 messages often, we recommend that you read through this section to avoid
 problems later.
 
+> Inevitably, you will forget to add the `-m` flag and a message and end up in the default editor and not remember how to exit. Don't panic, simply hit the `esc` key to ensure you are in **command mode** type the following to exit without saving:
+
+```console
+$ :q! 
+```
+
 When making a commit, if you forget to add the `m` flag and message and just
 type `git commit` instead, whatever text editor is configured as Git's command
 line editor will open automatically. If you have set up a text editor to open
