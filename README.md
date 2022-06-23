@@ -53,7 +53,6 @@ task, fix, or feature. Some examples:
 - Fixing a bug in a particular workflow.
 - Updating a broken link.
 - Modifying the CSS to use a new color palette.
-etc.
 
 Doing this has two big benefits. First, using well-defined, specific commits
 (combined with meaningful commit messages, which we'll talk about next), will
@@ -109,25 +108,29 @@ easy to do!). Therefore, even though you may not need to use multiline commit
 messages often, we recommend that you read through this section to avoid
 problems later.
 
-> Inevitably, you will forget to add the `-m` flag and a message and end up in the default editor and not remember how to exit. Don't panic, simply hit the `esc` key to ensure you are in **command mode** type the following to exit without saving:
-
-```console
-$ :q! 
-```
-
 When making a commit, if you forget to add the `m` flag and message and just
 type `git commit` instead, whatever text editor is configured as Git's command
 line editor will open automatically. If you have set up a text editor to open
 when you type a command into the terminal (e.g., `code` for VS Code), you might
-expect that that text editor will be opened, but it won't. The Git command line
-text editor needs to be configured in Git separately.
+expect that text editor to be opened, but it won't be. The Git command line text
+editor needs to be configured in Git separately.
 
 The default command line text editor varies for different operating systems and
 operating system versions, but, in general, they are quite confusing to use if
 you aren't familiar with them. Many Mac users have had the very frustrating
 experience of getting "stuck" in Vim, the default command line text editor for
-MacOS. Therefore, we recommend that you configure Git to use whichever text
-editor you use normally. If you're using VS Code, this is the command to use:
+MacOS. If this happens to you, to exit you first need to hit the `esc` key to
+ensure you are in **command mode**, then type the following:
+
+```console
+$ :q! 
+```
+
+Obviously, this is not an easy solution to remember, and it only applies if your
+default command line editor is Vim. Therefore, we recommend that you configure
+Git to use whichever text editor you use normally.
+
+If you're using VS Code, this is the command to use:
 
 ```console
 $ git config --global core.editor "code --wait"
