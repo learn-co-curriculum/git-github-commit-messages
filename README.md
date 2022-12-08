@@ -1,4 +1,4 @@
-# Maintaining a Clean, Well-documented Commit History
+# Maintaining a Good Commit History
 
 ## Learning Goals
 
